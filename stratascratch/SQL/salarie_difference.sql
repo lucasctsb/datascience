@@ -1,4 +1,9 @@
 # 1 - Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the absolute difference in salaries.
+
+# Databases are "db_employee" and "db_dept".
+Database "db_employee" has the following columns: "id", "first_name", "last_name", "salary" and "department_id".
+"db_dept" database has the columns "id" and "department".
+
 # Code:
   SELECT ABS(
    MAX(CASE WHEN d.department = 'engineering' THEN e.salary ELSE 0 END) - 

@@ -7,3 +7,7 @@
 FROM db_employee e
 JOIN db_dept d ON e.department_id = d.id
 WHERE d.department IN ('engineering', 'marketing')
+
+# Output will be:
+  diff_max_salaries
+  2400

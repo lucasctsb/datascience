@@ -1,8 +1,6 @@
-# 1 - Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the absolute difference in salaries.
+# Question: Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the absolute difference in salaries.
 
-# Databases are "db_employee" and "db_dept".
-Database "db_employee" has the following columns: "id", "first_name", "last_name", "salary" and "department_id".
-"db_dept" database has the columns "id" and "department".
+# Databases are "db_employee" and "db_dept". Database "db_employee" has the following columns: "id", "first_name", "last_name", "salary" and "department_id" and "db_dept" database has the columns "id" and "department".
 
 # Code:
   SELECT ABS(
